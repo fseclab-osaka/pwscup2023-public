@@ -1,11 +1,11 @@
 package main
 
 import (
+	"flag"
 	"fmt"
 	"github.com/cheggaaa/pb/v3"
 	"labs/library"
 	"math/rand"
-	"flag"
 )
 
 func main() {

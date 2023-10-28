@@ -18,7 +18,7 @@ func Usefullness(data [][]int, publicdata [][]int) float64 {
 			}
 		}
 	}
-	return 1  - (float64(fixed) / (float64(len(data))*float64(18)))
+	return 1 - (float64(fixed) / (float64(len(data)) * float64(18)))
 }
 
 func HammingDistance(s1, s2 []int) int {
@@ -45,7 +45,6 @@ func Sort_in_dictionary_order(data [][]int) [][]int {
 	})
 	return data
 }
-
 
 func Get_data_list_from_csv(filename string) [][]int {
 	// ファイルを開く
@@ -98,7 +97,6 @@ func Write_data_list_to_csv(filename string, data [][]int) {
 	}
 }
 
-
 func atoi(s string) int {
 	result := 0
 	for _, c := range s {
@@ -119,7 +117,6 @@ func itoa(n int) string {
 	}
 	return result
 }
-
 
 // maxIgnore: maxIgnore以下の距離のレコードを無視する
 func FindNearestRecord(sourceRecord []int, objectRecords [][]int, maxIgnore int) []int {
@@ -149,7 +146,6 @@ func FindNearestRecord(sourceRecord []int, objectRecords [][]int, maxIgnore int)
 	return nearestRecord
 }
 
-
 func ReadCSV(file *os.File) [][]int {
 	var data [][]int
 	reader := csv.NewReader(file)
@@ -174,7 +170,6 @@ func ReadCSV(file *os.File) [][]int {
 	}
 	return data
 }
-
 
 func WriteCSV(data [][]int, fileName string) {
 	file, err := os.Create(fileName)
