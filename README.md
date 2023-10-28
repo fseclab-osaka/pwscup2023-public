@@ -6,13 +6,12 @@
 
 ## ディレクトリ構成
 ディレクトリ構成は以下のとおりです.
-(予選の攻撃パートで用いたコードは含まれていません.)
 - main_anonymize # 本戦秘匿化パート
   - random_distance_swapping
   - random_perturbation
 - main_attack # 本戦攻撃パート
 - pre_anonymize # 予選秘匿化パート
 
-
+各ディレクトリに手法の説明が書かれたREADME.mdがありますので参照ください.
 
 
