@@ -5,7 +5,7 @@
 
 作成者：speed1313
 
-## random_perturbation
+## random_permutation
 ランダム置換を行うプログラム．
 
 作成者：tezizizi

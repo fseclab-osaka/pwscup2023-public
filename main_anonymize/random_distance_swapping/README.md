@@ -51,5 +51,7 @@ $ go run merge_p_r.go
 
 # term
 useddistancesum: 全体を通して選ばれた距離の合計。これの2倍が総コスト
+
 usedDistanceHist: 選ばれたdistanceの分布。左からdistance=0の個数, 1の個数,..
+
 maxignore: n  n以下のハミング距離マッチングを無視

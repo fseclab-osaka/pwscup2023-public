@@ -8,7 +8,7 @@
 ディレクトリ構成は以下のとおりです.
 - main_anonymize # 本戦秘匿化パート
   - random_distance_swapping
-  - random_perturbation
+  - random_permutation
 - main_attack # 本戦攻撃パート
 - pre_anonymize # 予選秘匿化パート
 
